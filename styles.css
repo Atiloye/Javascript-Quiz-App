@@ -48,7 +48,8 @@ body {
     padding: 10px;
 }
 .info-box.activeInfo,
-.quiz-box.activeQuiz {
+.quiz-box.activeQuiz,
+.result-box.activeResult {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
@@ -223,7 +224,7 @@ section .option-list  .option:last-child {
 .option-list .option.incorrect {
     color: #e2f3ff;
     font-weight: 500;
-    background: lightcoral;
+    background: rgb(240, 97, 97);
     border-color: white;
 }
 .option-list .option.disabled {
